@@ -7,7 +7,7 @@ import MealUpload from "../components/meal/MealUpload";
 import MealDownload from "../components/meal/MealDownload";
 import CheckIn from "../components/check/CheckIn";
 import CheckOut from "../components/check/CheckOut";
-
+import OutGoing from "../components/outgoing/OutGoing";
 import Bed from "../components/bed/Bed"
 import BedAdd from "../components/bed/BedAdd"
 import BedSelect from "../components/bed/BedSelect"
@@ -53,6 +53,10 @@ const router = new Router({
                 {
                     path: '/mealUpload',
                     component: MealUpload
+                },
+                {
+                    path: '/outGoing',
+                    component: OutGoing
                 },
                 {
                     path: '/mealDownload',

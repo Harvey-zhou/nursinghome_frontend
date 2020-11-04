@@ -78,7 +78,7 @@
                         this.$router.push('/mealDownload')
                         break;
                     case '5': //外出管理
-                        this.$router.push("/")
+                        this.$router.push("/outGoing")
                         break;
                     case '6': //护理管理
                         this.$router.push("/")
