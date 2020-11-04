@@ -10,6 +10,7 @@ import store from './store'
 import axios from 'axios';
 
 //jquery
+// eslint-disable-next-line no-unused-vars
 import $ from 'jquery'
 
 Vue.config.productionTip = false
