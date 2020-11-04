@@ -31,6 +31,7 @@ axios.interceptors.request.use(
     })
 
 Vue.prototype.$ajax = axios
+Vue.config.silent = true
 
 new Vue({
     store,
